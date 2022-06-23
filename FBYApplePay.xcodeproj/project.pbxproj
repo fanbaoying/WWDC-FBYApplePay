@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2607A913286193E000BF622E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2607A912286193E000BF622E /* SwiftUIView.swift */; };
 		267660A82680929100C0433E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267660A72680929100C0433E /* AppDelegate.swift */; };
 		267660AA2680929100C0433E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267660A92680929100C0433E /* SceneDelegate.swift */; };
 		267660AC2680929100C0433E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267660AB2680929100C0433E /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2607A912286193E000BF622E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		267660A42680929100C0433E /* FBYApplePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBYApplePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267660A72680929100C0433E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		267660A92680929100C0433E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				267660A72680929100C0433E /* AppDelegate.swift */,
 				267660A92680929100C0433E /* SceneDelegate.swift */,
 				267660AB2680929100C0433E /* ViewController.swift */,
+				2607A912286193E000BF622E /* SwiftUIView.swift */,
 				267660AD2680929100C0433E /* Main.storyboard */,
 				267660B02680929500C0433E /* Assets.xcassets */,
 				267660B22680929500C0433E /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			files = (
 				267660AC2680929100C0433E /* ViewController.swift in Sources */,
 				267660A82680929100C0433E /* AppDelegate.swift in Sources */,
+				2607A913286193E000BF622E /* SwiftUIView.swift in Sources */,
 				267660AA2680929100C0433E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWXF6GB4AV;
 				INFOPLIST_FILE = FBYApplePay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWXF6GB4AV;
 				INFOPLIST_FILE = FBYApplePay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
